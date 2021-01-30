@@ -1,0 +1,4 @@
+
+(firefox:21526): GLib-GObject-WARNING **: 17:18:48.847: ../../../gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7f655a7f1a70' of type 'MaiAtkType21'
+
+(firefox:21526): GLib-GObject-WARNING **: 17:24:11.932: ../../../gobject/gsignal.c:3599: signal name 'load_complete' is invalid for instance '0x7f655a1fc170' of type 'MaiAtkType13b'

@@ -22,10 +22,12 @@ bot.on('message', function(message) {
     if(message.author.bot && !message.content.match(new RegExp(`^(<@(|!)${bot.user.id}+>)`,'g'))) return;
     switch(arg=message.content.split(' ')[1]) {
         case 'track':
-            scrape({channel: message.channel});break;
+            scrape({channel: message.channel}); break;
         case 'ua': case 'header':
             scrape({channel: message.channel, ua: arg});
-            message.reply('UA changed!');
+            /*message.reply('UA changed!');*/ break;
+	default:
+	    message.reply(`mention me with \`track\` to get the StockPrice of GME in chat, or \`ua\` search using another User-Agent, do this if I dont show as online`).then(msg => msg.delete({timeout: 30000}));
     }
 });
 bot.on('ratelimit', function(info) {
