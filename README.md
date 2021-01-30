@@ -1,5 +1,5 @@
 # Stock Bot
-Stock Bot gives you the ability to quickly check a stock value from ~~any~~ available stock market globally, directly ~~from~~ on Discord.
+Stock Bot to check GME stocks, directly ~~from~~ on Discord.
 > Stock Bot currently only works on *depends*
 ## Installation
 ### Create a Discord App
@@ -9,22 +9,21 @@ Stock Bot gives you the ability to quickly check a stock value from ~~any~~ avai
 - Invite your bot to your discord server
 ### Run the install
 ```
-git clone https://github.com/aidanwardman/Stock-Bot
-cd Stock-Bot
-npm install requirements.txt
+git clone https://github.com/christusdsouza/stockbot
+cd stockbot
+npm install
 ```
 ### Configure the bot
-> Better advised to use environment variables while hosting online
-- Create a file called **credentials.json** with the following structure
+> Better advised to use SECRET environment variables while hosting online
+- Create a file called **.env** with the following structure
 ```
-{
-	"token":"ABCDEFG"
-}
+# file: .env
+TOKEN=some.token-by.Discord
 ``` 
-- Replace **ABCDEFG** with your discord **App Bot User Token**
 ## Running
 ```
-node bot.json
+node bot.js
 ```
 ## Usage
-*automated*
+*automated* 
+Use @mention track - to get the StockPrice in chat | @mention ua - to set the User-Agent

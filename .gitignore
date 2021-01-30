@@ -7,6 +7,7 @@ yarn-error.log*
 
 # Custom ignores
 credentials.json
+*.out
 
 # Runtime data
 pids
