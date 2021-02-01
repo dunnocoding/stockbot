@@ -8,7 +8,7 @@
     "cheerio": "^1.0.0-rc.5",
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0"
-"start": "node bot.js" 
+"start" : "node bot.js" 
   },
   "devDependencies": {},
   "scripts": {
