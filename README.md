@@ -1,5 +1,5 @@
 # Stock Bot
-Stock Bot to check GME stocks, directly ~~from~~ on Discord.
+Stock Bot to check stocks, directly on Discord.
 > Stock Bot currently only works on *depends*
 ## Installation
 ### Create a Discord App
@@ -27,3 +27,4 @@ node bot.js
 ## Usage
 *automated* 
 Use @mention track - to get the StockPrice in chat | @mention ua - to set the User-Agent
+*works only for NYSE right now
