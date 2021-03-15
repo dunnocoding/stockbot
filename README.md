@@ -1,6 +1,7 @@
 # Stock Bot
 Stock Bot to check stocks, directly on Discord.
 > Stock Bot currently only works on *depends*
+-----
 > *works only for NYSE right now
 ## Installation
 ### Create a Discord App
